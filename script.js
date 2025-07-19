@@ -331,3 +331,8 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 console.log("MediCare Plus website loaded successfully!")
+
+ document.getElementById("chatbotBtn").onclick = function() {
+    var modal = document.getElementById("chatbotModal");
+    modal.style.display = (modal.style.display === "none") ? "block" : "none";
+  }
